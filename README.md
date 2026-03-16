@@ -130,6 +130,12 @@ roi = t.roi()
 rec = t.recommend()
 ```
 
+## Author
+
+**Matt MacDonald** -- building public record intelligence infrastructure with AI agents. This tool tracks my own AI coding budget across the project.
+
+[LinkedIn](https://www.linkedin.com/in/mattmacdonald2/) | [GitHub](https://github.com/driki)
+
 ## License
 
 MIT
