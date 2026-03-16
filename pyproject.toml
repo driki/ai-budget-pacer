@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ai-budget-pacer"
+version = "0.1.0"
+description = "Track and optimize your AI coding assistant subscription budget"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    {name = "Matt MacDonald"},
+]
+keywords = ["ai", "budget", "tokens", "coding-assistant", "productivity"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+pacer = "cli:main"
+
+[project.urls]
+Homepage = "https://github.com/driki/ai-budget-pacer"
+Issues = "https://github.com/driki/ai-budget-pacer/issues"
